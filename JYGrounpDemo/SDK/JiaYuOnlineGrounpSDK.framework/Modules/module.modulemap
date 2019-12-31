@@ -1,0 +1,6 @@
+framework module JiaYuOnlineGrounpSDK {
+  umbrella header "JiaYuOnlineGrounpSDK.h"
+
+  export *
+  module * { export * }
+}

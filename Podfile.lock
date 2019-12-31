@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - JiaYuOnlineCore (0.0.69):
+    - AFNetworking (~> 3.0.4)
+  - Masonry (1.1.0)
+  - QNRTCKit (2.3.0)
+
+DEPENDENCIES:
+  - JiaYuOnlineCore (~> 0.0.69)
+  - Masonry (~> 1.1.0)
+  - QNRTCKit (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Masonry
+    - QNRTCKit
+  https://github.com/Jiayuonline/Specs.git:
+    - JiaYuOnlineCore
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  JiaYuOnlineCore: 2c385487d9e51c64750da003ccb6aae6e2259b27
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QNRTCKit: 1ec69261ae4bcd48984eaf211a44f63a30c42bfc
+
+PODFILE CHECKSUM: 516a0c3e3db5e096bdde154cdb5402e73c24eb98
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module JiaYuOnlineCore {
+  umbrella header "JiaYuOnlineCore.h"
+
+  export *
+  module * { export * }
+}
