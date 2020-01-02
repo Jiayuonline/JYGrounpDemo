@@ -15,7 +15,7 @@ iOS 车友组队Demo
   
       #驾御-基础组件
      pod 'JiaYuOnlineCore', '~> 0.0.69'
-      pod 'QNRTCKit', '~> 2.0'
+     pod 'QNRTCKit', '~> 2.0'
 
     end
 
@@ -130,7 +130,7 @@ socketState
 
     [JYGrounpVoice  muteAudio];
     
-####16.离开房间并断开语音
+#### 16.离开房间并断开语音
 
     [JYGrounpVoice  leaveRoom];
 
