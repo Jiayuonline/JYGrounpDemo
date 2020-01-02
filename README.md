@@ -36,7 +36,7 @@ iOS 车友组队Demo
         }
     }];
     
-####2.加入车队
+#### 2.加入车队
 
     [JYGrounp joinMotorcadeWithMotorcadeWord:@"619110" complete:^(BOOL isSuccess) {
               if (isSuccess) {
@@ -46,19 +46,19 @@ iOS 车友组队Demo
             }
         }];
         
-####3.车队列表
+#### 3.车队列表
     
     [JYGrounp getMotorcadeList:^(BOOL isSuccess, NSMutableArray<GrounpListModel *> * _Nullable motorcadeList, NSError * _Nullable error) {
                 
     }];
     
-####4.车队详情
+#### 4.车队详情
 
     [JYGrounp getMotorcadeWithMid:@"74be9a8e66864129bb09b3268f12905d" complete:^(BOOL isSuccess, GrounpDetailModel * _Nullable detailModel, NSError * _Nullable error) {
                 
       }];
         
-####5.添加成员
+#### 5.添加成员
 
     [JYGrounp addMotorcadeMemberWithMid:@"74be9a8e66864129bb09b3268f12905d" andUid:@"88309048" complete:^(BOOL isSuccess) {
         if (isSuccess) {
@@ -68,17 +68,17 @@ iOS 车友组队Demo
         }
     }];
     
-####6.成员列表
+#### 6.成员列表
     
     [JYGrounp getMotorcadeUserListWithMid:@"74be9a8e66864129bb09b3268f12905d" complete:^(BOOL isSuccess, NSMutableArray<GrounpTeammateModel *> * _Nullable teammateList, NSError * _Nullable error) {
      }];
      
-####7.好友列表
+#### 7.好友列表
     
     [JYGrounp getMotorcadeFriendList:^(BOOL isSuccess, NSMutableArray<GrounpFriendModel *> * _Nullable friendList, NSError * _Nullable error) {
     }];
     
-####8.修改名称
+#### 8.修改名称
     
     [JYGrounp editMotorcadeNameWithMotorcadeWord:@"249913" andMotorcadeName:@"秋名山车神" complete:^(BOOL isSuccess) {
         if (isSuccess) {
@@ -88,7 +88,7 @@ iOS 车友组队Demo
         }
     }];
     
-####9.退出车队
+#### 9.退出车队
     
     [JYGrounp quitMotorcadeWithMid:@"9a1b003fa5544b5eafb15ee44f84590e" complete:^(BOOL isSuccess) {
         if (isSuccess) {
@@ -98,14 +98,14 @@ iOS 车友组队Demo
         }
     }];
     
-####10.连接车队socket
+#### 10.连接车队socket
 socketState
     
     [JySocketUtils connectWithMid:@"74be9a8e66864129bb09b3268f12905d" complete:^(NSDictionary * _Nonnull result, JYMotorcadeSocketState socketState) {
          NSLog(@"%@",result);
     }];
     
-####11.通过socket发送位置
+#### 11.通过socket发送位置
 
     SocketModel *model = [SocketModel new];
        model.locationModel.latitude = 0.21432;
@@ -114,22 +114,23 @@ socketState
        model.type = 1;
        [JySocketUtils sendData:model];
        
-####12.断开车队socket
+#### 12.断开车队socket
 
     [JySocketUtils  disconnect];
     
-####13.加入房间并开启语音
+#### 13.加入房间并开启语音
 
     [JYGrounpVoice joinRoomWithToken:@"roomtoken"];
     
-####14.开启/关闭扬声器
+#### 14.开启/关闭扬声器
 
     [JYGrounpVoice  setSpeakerOn:NO];
     
-####15.是否静音
+#### 15.是否静音
 
     [JYGrounpVoice  muteAudio];
     
 ####16.离开房间并断开语音
 
     [JYGrounpVoice  leaveRoom];
+
