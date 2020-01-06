@@ -68,6 +68,10 @@
 		<data>
 		fqyMfEo5L4Yi39/9XAmyYE8bC98=
 		</data>
+		<key>License</key>
+		<data>
+		M1rEIH9Z1ItwFAqM4SFJ2TUgW8g=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		Ip18jkS7m0GO7wcxhVTp/kfygWA=
@@ -238,6 +242,17 @@
 			<key>hash2</key>
 			<data>
 			wqgqH+hPViK50BTIbaVaHst2UzKWvlEYxJOQhfQTtO8=
+			</data>
+		</dict>
+		<key>License</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M1rEIH9Z1ItwFAqM4SFJ2TUgW8g=
+			</data>
+			<key>hash2</key>
+			<data>
+			qxclMBwrLRhu2Dq/dGYU3zvAlNfeFdjxoOqdSGwhadk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

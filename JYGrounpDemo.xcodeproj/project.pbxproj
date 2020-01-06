@@ -14,7 +14,6 @@
 		8A5A755623BB4855007489B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A5A755523BB4855007489B2 /* Assets.xcassets */; };
 		8A5A755923BB4855007489B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A5A755723BB4855007489B2 /* LaunchScreen.storyboard */; };
 		8A5A755C23BB4855007489B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5A755B23BB4855007489B2 /* main.m */; };
-		8A5A756423BB4922007489B2 /* JiaYuOnlineGrounpSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5A756323BB4922007489B2 /* JiaYuOnlineGrounpSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		8A5A755823BB4855007489B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A5A755A23BB4855007489B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A5A755B23BB4855007489B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8A5A756323BB4922007489B2 /* JiaYuOnlineGrounpSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JiaYuOnlineGrounpSDK.framework; sourceTree = "<group>"; };
 		ED8845BD2265066312A171C5 /* Pods-JYGrounpDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYGrounpDemo.release.xcconfig"; path = "Target Support Files/Pods-JYGrounpDemo/Pods-JYGrounpDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5A756423BB4922007489B2 /* JiaYuOnlineGrounpSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +72,6 @@
 		8A5A754823BB4853007489B2 /* JYGrounpDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8A5A756223BB4922007489B2 /* SDK */,
 				8A5A754923BB4853007489B2 /* AppDelegate.h */,
 				8A5A754A23BB4853007489B2 /* AppDelegate.m */,
 				8A5A754C23BB4853007489B2 /* SceneDelegate.h */,
@@ -89,14 +85,6 @@
 				8A5A755B23BB4855007489B2 /* main.m */,
 			);
 			path = JYGrounpDemo;
-			sourceTree = "<group>";
-		};
-		8A5A756223BB4922007489B2 /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				8A5A756323BB4922007489B2 /* JiaYuOnlineGrounpSDK.framework */,
-			);
-			path = SDK;
 			sourceTree = "<group>";
 		};
 		CE3B5BECF50F763AC9F9B833 /* Pods */ = {

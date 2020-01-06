@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  0 暂无消息
  1 位置共享
  2 队长发送目的地
- 3普通文字消息
+ 3 普通文字消息
  */
 @property (nonatomic, assign) NSInteger type;
 
