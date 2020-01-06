@@ -4,19 +4,13 @@ iOS 车友组队Demo
 
 ## 接入准备
 
-将 "JiaYuOnlineGrounpSDK.framework" 引入到项目中，并通过cocospods添加依赖库
+通过cocospods添加
 
     platform :ios, '11.0'
 
-    source 'https://github.com/CocoaPods/Specs.git'
-    source 'https://github.com/Jiayuonline/Specs.git'
-
-    target 'JYGrounpDemo' do
-  
-      #驾御-基础组件
-     pod 'JiaYuOnlineCore', '~> 0.0.69'
-     pod 'QNRTCKit', '~> 2.0'
-
+    target 'JYGrounpDemo' do  
+    
+        pod 'JiaYuOnlineGrounp', '~> 0.0.1'
     end
 
 
